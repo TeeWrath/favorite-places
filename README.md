@@ -1,6 +1,7 @@
 # favorite_places
 
 A flutter application to save favorite places.
+Created while learning native device features.
 
 # Build Instructions
 - Start a mobile emulator or connect your device.
