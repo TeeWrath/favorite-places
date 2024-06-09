@@ -1,5 +1,5 @@
-import 'package:favorite_places/screens/add_place.dart';
 import 'package:favorite_places/screens/places.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
@@ -29,7 +29,7 @@ final theme = ThemeData().copyWith(
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
-    const MyApp(),
+    const ProviderScope(child: MyApp()),
   );
 }
 
